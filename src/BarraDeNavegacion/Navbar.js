@@ -23,14 +23,23 @@ export const Navbar = () => {
                         Bote de Pintura
                     </NavLink>
 
-                    {/* <NavLink 
+                    <NavLink 
                         activeClassName="active"
                         className="nav-item nav-link" 
                         exact
-                        to="/dc"
+                        to="/ejercicio2"
                     >
-                        DC
-                    </NavLink> */}
+                        Calculadora
+                    </NavLink>
+
+                    <NavLink 
+                        activeClassName="active"
+                        className="nav-item nav-link" 
+                        exact
+                        to="/ejercicio3"
+                    >
+                        Casa de Cambio
+                    </NavLink>
                 </div>
             </div>
         </nav>
