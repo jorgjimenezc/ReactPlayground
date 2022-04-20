@@ -15,9 +15,13 @@ export const AppRouter = () => {
                 <Route path="/ejercicio3" element={<CasadeCambio />} />
 
                 <Route path="/" element={<Navbar />} />
+                <Route path="*" element={<Navigate to='/' />} />
                 {/* <Route path="/" element={<Navigate to='/ejercicio1' />} /> */}
                                                      
-            </Routes>        
+            </Routes> 
+
+            <div className='btn btn-primary'>
+            </div>       
         </BrowserRouter>
     </div>
   )
