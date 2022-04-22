@@ -40,6 +40,15 @@ export const Navbar = () => {
                     >
                         Casa de Cambio
                     </NavLink>
+
+                    <NavLink 
+                        activeClassName="active"
+                        className="nav-item nav-link" 
+                        exact
+                        to="/ejercicio4"
+                    >
+                        Log In
+                    </NavLink>
                 </div>
             </div>
         </nav>

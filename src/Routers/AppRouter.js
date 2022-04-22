@@ -1,5 +1,6 @@
 import { Routes, Route, BrowserRouter, Navigate } from 'react-router-dom'
 import { Navbar } from '../BarraDeNavegacion/Navbar'
+import { AutenticadorBasico } from '../hooks/AutenticadorBasico'
 import { BotesPinturaApp } from '../hooks/BotesPinturaApp'
 import { CalculadoraApp } from '../hooks/CalculadoraApp'
 import { CasadeCambio } from '../hooks/CasaDeCambio'
@@ -13,6 +14,7 @@ export const AppRouter = () => {
                 <Route path="/ejercicio1" element={<BotesPinturaApp />} />
                 <Route path="/ejercicio2" element={<CalculadoraApp />} />
                 <Route path="/ejercicio3" element={<CasadeCambio />} />
+                <Route path="/ejercicio4" element={<AutenticadorBasico />} />
 
                 <Route path="/" element={<Navbar />} />
                 <Route path="*" element={<Navigate to='/' />} />
